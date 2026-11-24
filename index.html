@@ -7,5 +7,221 @@
 </head>
 <body>
     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aftab | My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0b1120;
+            color: white;
+        }
+
+        header {
+            background: #111c30;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #00e5ff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #00e5ff;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #00e5ff;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #00e5ff;
+            color: #07111f;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 65px 10%;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #00e5ff;
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+
+        .about p {
+            color: #cbd5e1;
+            line-height: 1.8;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #16243b;
+            padding: 30px;
+            border-radius: 15px;
+            width: 250px;
+            border: 1px solid #263b58;
+        }
+
+        .card h3 {
+            color: #00e5ff;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+
+        .contact p {
+            margin: 12px;
+            color: #cbd5e1;
+        }
+
+        footer {
+            background: #111c30;
+            padding: 20px;
+            text-align: center;
+            color: #cbd5e1;
+        }
+
+        @media(max-width: 600px) {
+            .hero h1 {
+                font-size: 35px;
+            }
+
+            header {
+                justify-content: center;
+                gap: 15px;
+            }
+
+            nav {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>AF TAB.</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <div>
+            <h1>Hello, I'm <span>Aftab</span></h1>
+            <p>Class 12 Student | Future Web Developer</p>
+            <a href="#about" class="btn">Explore My Portfolio</a>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            My name is Aftab. I am a Class 12 student.
+            I am passionate about technology, computers
+            and web development. I love learning new skills
+            and creating beautiful websites.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>I can create the structure of websites using HTML.</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>I can design beautiful websites using CSS.</p>
+            </div>
+
+            <div class="card">
+                <h3>Learning</h3>
+                <p>I am always ready to learn new computer skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Name: Aftab</p>
+        <p>Class: 12</p>
+        <p>Email: your-email@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Aftab | My Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
+
 </body>
 </html>
